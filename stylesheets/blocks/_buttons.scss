@@ -1,0 +1,19 @@
+.button {
+  padding: 23px 51px;
+  border-radius: 3px;
+  background-color: $yellow;
+  font-family: Montserrat-Bold;
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: all 0.4s ease;
+
+  &:hover {
+    background-color: adjust_hue($yellow, 180deg);
+  }
+}
+
+
+/*
+<a href="#/" class="button">Tell me more</a>
+*/
