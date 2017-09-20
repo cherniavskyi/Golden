@@ -36,10 +36,11 @@ a {
 
 .section-title {
   max-width: 70%;
+  margin: 0 auto;
   text-align: center;
 
   p {
-    margin-top: 20px;
+    margin-top: 15px;
     font-family: DroidSerif-Italic;
     font-size: 16px;
     color: $grey;

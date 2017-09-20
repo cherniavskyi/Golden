@@ -1,0 +1,57 @@
+.services-single {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 300px;
+  padding: 0 15px;
+  text-align: center;
+
+  .services-single__logo {
+    align-self: center;
+    width: 66px;
+    height: 66px;
+    border: 3px solid $yellow;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .services-single__title {
+    margin-top: 25px;
+    color: $dark;
+    letter-spacing: -0.5px;
+  }
+
+  .services-single__description {
+    margin: 0 auto;
+    max-width: 97%;
+    margin-top: 13px;
+    color: $grey;
+    line-height: 21px;
+    text-indent: 14px;
+  }
+}
+
+
+/*
+<div class="services-single">
+  <div class="services-single__logo" style="background-image: url('images/basket.png')"></div>
+  <h3 class="services-single__title">E-Commerce</h3>
+  <p class="services-single__description">Proin iaculis purus consequat sem cure digni ssim.
+   Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt</p>
+</div>
+
+<div class="services-single">
+  <div class="services-single__logo" style="background-image: url('images/laptop.png')"></div>
+  <h3 class="services-single__title">Responsive Web</h3>
+  <p class="services-single__description">Proin iaculis purus consequat sem cure digni ssim.
+   Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt</p>
+</div>
+
+<div class="services-single">
+  <div class="services-single__logo" style="background-image: url('images/lock.png')"></div>
+  <h3 class="services-single__title">Web Security</h3>
+  <p class="services-single__description">Proin iaculis purus consequat sem cure digni ssim.
+   Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt</p>
+</div>
+*/
