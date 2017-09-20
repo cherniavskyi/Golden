@@ -9,7 +9,7 @@
   transition: all 0.4s ease;
 
   &:hover {
-    background-color: adjust_hue($yellow, 180deg);
+    background-color: darken($yellow, 20%);
   }
 }
 
