@@ -1,1 +1,61 @@
 //@font-fase
+
+@font-face {
+  font-family: 'DroidSerif-Italic';
+  src: url('../fonts/DroidSerif-Italic/DroidSerif-Italic.eot');
+  src: url('../fonts/DroidSerif-Italic/DroidSerif-Italic.woff2') format('woff2'),
+  url('../fonts/DroidSerif-Italic/DroidSerif-Italic.woff') format('woff'),
+  url('../fonts/DroidSerif-Italic/DroidSerif-Italic.ttf') format('truetype'),
+  url('../fonts/DroidSerif-Italic/DroidSerif-Italic.svg') format('svg'),
+  url('../fonts/DroidSerif-Italic/DroidSerif-Italic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold/Montserrat-Bold.eot');
+  src: url('../fonts/Montserrat-Bold/Montserrat-Bold.woff2') format('woff2'),
+  url('../fonts/Montserrat-Bold/Montserrat-Bold.woff') format('woff'),
+  url('../fonts/Montserrat-Bold/Montserrat-Bold.ttf') format('truetype'),
+  url('../fonts/Montserrat-Bold/Montserrat-Bold.svg#Montserrat-Bold') format('svg'),
+  url('../fonts/Montserrat-Bold/Montserrat-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url('../fonts/MyriadPro-Regular/MyriadPro-Regular.eot');
+  src: url('../fonts/MyriadPro-Regular/MyriadPro-Regular.woff2') format('woff2'),
+  url('../fonts/MyriadPro-Regular/MyriadPro-Regular.woff') format('woff'),
+  url('../fonts/MyriadPro-Regular/MyriadPro-Regular.ttf') format('truetype'),
+  url('../fonts/MyriadPro-Regular/MyriadPro-Regular.svg') format('svg'),
+  url('../fonts/MyriadPro-Regular/MyriadPro-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoSlab-Regular';
+  src: url('../fonts/RobotoSlab-Regular/RobotoSlab-Regular.eot');
+  src: url('../fonts/RobotoSlab-Regular/RobotoSlab-Regular.woff2') format('woff2'),
+  url('../fonts/RobotoSlab-Regular/RobotoSlab-Regular.woff') format('woff'),
+  url('../fonts/RobotoSlab-Regular/RobotoSlab-Regular.ttf') format('truetype'),
+  url('../fonts/RobotoSlab-Regular/RobotoSlab-Regular.svgd') format('svg'),
+  url('../fonts/RobotoSlab-Regular/RobotoSlab-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/FontAwesome/fontawesome-webfont.eot');
+  src: url('../fonts/FontAwesome/fontawesome-webfont.woff2') format('woff2'),
+  url('../fonts/FontAwesome/fontawesome-webfont.woff') format('woff'),
+  url('../fonts/FontAwesome/fontawesome-webfont.ttf') format('truetype'),
+  url('../fonts/FontAwesome/fontawesome-webfont.svgd') format('svg'),
+  url('../fonts/FontAwesome/fontawesome-webfont.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}

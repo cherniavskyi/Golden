@@ -1,1 +1,24 @@
 //typography: base styles for fonts, p, a, standard h1, h2 ...
+
+body {
+  font-family: RobotoSlab-Regular;
+  font-size: 14px;
+}
+
+h1 {
+  font-family: Montserrat-Bold;
+  font-size: 75px;
+  color: #fff;
+}
+
+h2 {
+  font-family: Montserrat-Bold;
+  font-size: 40px;
+  color: $dark;
+}
+
+h3 {
+  font-family: Montserrat-Bold;
+  font-size: 18px;
+  color: $dark;
+}
