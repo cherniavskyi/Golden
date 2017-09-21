@@ -1,0 +1,44 @@
+.footer {
+  padding-top: 52px;
+  padding-bottom: 30px;
+  background-color: #fff;
+
+  .container {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .footer__copyright {
+    font-family: Montserrat-Regular;
+  }
+
+  .social {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .fa {
+      background-color: $dark;
+      color: #fff;
+    }
+  }
+}
+
+/*
+<footer class="footer">
+    <div class="container">
+        <span class="footer__copyright">
+            &copy;Copyright 2014 Mykolayiv.com
+        </span>
+        <div class="social">
+            <ul class="social-list">
+                <li class="social-item"><a href="#/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a href="#/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a href="#/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a href="#/"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+*/
