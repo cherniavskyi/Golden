@@ -1,0 +1,26 @@
+.platforms {
+  padding: 28px 0;
+  background-color: #fff;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 768px;
+  }
+
+  .platforms__link:hover {
+    transform: scale(1.3);
+  }
+}
+
+/*
+<section class="platforms">
+    <div class="container">
+        <a href="#/" class="platforms__link"><img src="images/platforms-1.jpg" alt="logo" class="platforms__logo"></a>
+        <a href="#/" class="platforms__link"><img src="images/platforms-2.jpg" alt="logo" class="platforms__logo"></a>
+        <a href="#/" class="platforms__link"><img src="images/platforms-3.jpg" alt="logo" class="platforms__logo"></a>
+        <a href="#/" class="platforms__link"><img src="images/platforms-4.jpg" alt="logo" class="platforms__logo"></a>
+    </div>
+</section>
+*/
