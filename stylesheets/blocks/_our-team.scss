@@ -1,0 +1,49 @@
+.our-team {
+  padding: 114px 0;
+  background-color: #fff;
+
+  .container {
+    max-width: 846px;
+  }
+
+  .section-title {
+    h2 {
+      letter-spacing: -2px;
+    }
+
+    p {
+      margin-top: 20px;
+    }
+  }
+
+  .section-content {
+    margin-top: 83px;
+  }
+
+  .our-team__description {
+    max-width: 605px;
+    margin: 0 auto;
+    margin-top: 47px;
+    line-height: 22px;
+    text-align: center;
+  }
+}
+
+
+/*
+<section class="our-team">
+    <div class="container">
+        <div class="section-title">
+            <h2>Our amazing team</h2>
+            <p>Proin iaculis purus consequat sem cure.</p>
+        </div>
+        <div class="section-content">
+
+        </div>
+        <div class="our-team__description">
+            <p>Proin iaculis purus consequat sem cure digni ssim donec porttitora
+            entum suscipit aenean rhoncus posuere odio in tincidunt proin iaculis.</p>
+        </div>
+    </div>
+</section>
+*/

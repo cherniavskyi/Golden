@@ -1,0 +1,79 @@
+.our-team-single {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 222px;
+  padding: 0 30px;
+
+  .our-team-single__photo-wrapper:hover  .our-team-single__photo {
+    transform: rotateY(360deg);
+    transition: all 1s ease;
+  }
+
+  .our-team-single__photo {
+    width: 222px;
+    height: 222px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .our-team-single__name {
+    margin-top: 23px;
+    font-size: 17px;
+  }
+
+  .our-team-single__role {
+    margin-top: 8px;
+    margin-bottom: 13px;
+    color: $grey;
+  }
+}
+
+
+/*
+<div class="our-team-single">
+    <a href="#/" class="our-team-single__photo-wrapper">
+        <div class="our-team-single__photo" style="background-image: url('images/IMG_20160928_134341.jpg')"></div>
+    </a>
+    <h4 class="our-team-single__name">Oleg Cherniavskyi</h4>
+    <span class="our-team-single__role">Father</span>
+    <div class="social">
+        <ul class="social-list">
+            <li class="social-item"><a href="#/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li class="social-item"><a href="#/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li class="social-item"><a href="#/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+</div>
+<div class="our-team-single">
+    <a href="#/" class="our-team-single__photo-wrapper">
+        <div class="our-team-single__photo" style="background-image: url('images/B612_20170408_143933.jpg')"></div>
+    </a>
+    <h4 class="our-team-single__name">Alena Sikach</h4>
+    <span class="our-team-single__role">Mother</span>
+    <div class="social">
+        <ul class="social-list">
+            <li class="social-item"><a href="#/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li class="social-item"><a href="#/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li class="social-item"><a href="#/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+</div>
+<div class="our-team-single">
+    <a href="#/" class="our-team-single__photo-wrapper">
+        <div class="our-team-single__photo" style="background-image: url('images/Shrek.jpg')"></div>
+    </a>
+    <h4 class="our-team-single__name">Shrek Cherniavskyi</h4>
+    <span class="our-team-single__role">Son</span>
+    <div class="social">
+        <ul class="social-list">
+            <li class="social-item"><a href="#/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li class="social-item"><a href="#/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li class="social-item"><a href="#/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+</div>
+*/

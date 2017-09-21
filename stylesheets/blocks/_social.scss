@@ -1,0 +1,51 @@
+.social {
+
+  .social-list {
+    display: flex;
+  }
+
+  .social-item + .social-item {
+    margin-left: 10px;
+  }
+
+  .fa {
+    width: 36px;
+    height: 36px;
+    border: 2px solid $dark;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 36px;
+    color: $dark;
+    font-size: 22px;
+    transition: all 0.4s ease;
+
+    &:hover {
+      color: #fff;
+    }
+
+    &.fa-twitter:hover {
+      background-color: #00aced;
+      border-color: #00aced;
+    }
+
+    &.fa-facebook:hover {
+      background-color: #3b5998;
+      border-color: #3b5998;
+    }
+
+    &.fa-pinterest-p:hover {
+      background-color: #cb2028;
+      border-color: #cb2028;
+    }
+  }
+}
+
+/*
+<div class="social">
+  <ul class="social-list">
+      <li class="social-item"><a href="#/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+      <li class="social-item"><a href="#/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+      <li class="social-item"><a href="#/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+  </ul>
+</div>
+*/
