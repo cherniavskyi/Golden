@@ -1,0 +1,60 @@
+.about-us {
+  padding: 114px 0;
+  background-color: #fff;
+
+  .container {
+    max-width: 880px;
+  }
+
+  .section-content {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .section-content {
+    flex-direction: column;
+  }
+
+  .about-us-continues {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 170px;
+    border: 7px solid #f1f1f1;
+    border-radius: 50%;
+    background-color: $yellow;
+
+    .about-us-continues__title {
+      max-width: 111px;
+      text-transform: uppercase;
+      color: #fff;
+      word-spacing: 10px;
+      text-align: center;
+      line-height: 27px;
+    }
+  }
+}
+
+
+/*
+<section class="about-us">
+    <div class="container">
+        <div class="section-title">
+            <h2>About us</h2>
+            <p>Proin iaculis purus consequat sem cure.</p>
+        </div>
+        <div class="section-content">
+
+            <div class="about-us-continues">
+                <h3 class="about-us-continues__title">Our story continues ...</h3>
+            </div>
+        </div>
+    </div>
+</section>
+*/
+

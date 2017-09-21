@@ -1,0 +1,139 @@
+.about-us-single {
+  position: relative;
+  display: flex;
+  max-width: 527px;
+
+  .about-us-single__image {
+    width: 170px;
+    height: 170px;
+    border: 7px solid #f1f1f1;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .about-us-single__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 7px;
+  }
+
+  .about-us-single__title, .about-us-single__description {
+    max-width: 320px;
+  }
+
+  .about-us-single__date {
+    text-transform: uppercase;
+  }
+
+  .about-us-single__event {
+    margin-top: 9px;
+    text-transform: capitalize;
+  }
+
+  .about-us-single__description {
+    margin-top: 13px;
+    font-family: RobotoSlab-Regular;
+    color: $grey;
+    line-height: 21px;
+  }
+
+  &.left {
+    align-self: flex-start;
+    flex-direction: row-reverse;
+    text-align: right;
+
+    .about-us-single__content {
+      margin-right: 40px;
+    }
+  }
+
+  &.right {
+    align-self: flex-end;
+    flex-direction: row;
+    margin: 100px 0;
+    text-align: left;
+
+    .about-us-single__content {
+      align-items: flex-start;
+      margin-left: 40px;
+    }
+
+    .about-us-single__image {
+      position: relative;
+
+      &:before, &:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        width: 2px;
+        height: 93px;
+        background-color: #f1f1f1;
+      }
+
+      &:before {
+        top: -100px;
+      }
+
+      &:after {
+        bottom: -100px;
+      }
+    }
+  }
+}
+
+
+/*
+<div class="about-us-single left">
+    <div class="about-us-single__image" style="background-image: url('images/about-us-1.jpg')"></div>
+    <div class="about-us-single__content">
+        <div class="about-us-single__title">
+            <h3 class="about-us-single__date">July 2010</h3>
+            <h3 class="about-us-single__event">Our Humble Beginnings</h3>
+        </div>
+        <p class="about-us-single__description">Proin iaculis purus consequat sem cure digni ssim.
+        Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis
+        purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>
+    </div>
+</div>
+<div class="about-us-single right">
+    <div class="about-us-single__image" style="background-image: url('images/about-us-2.jpg')"></div>
+    <div class="about-us-single__content">
+        <div class="about-us-single__title">
+            <h3 class="about-us-single__date">January 2011</h3>
+            <h3 class="about-us-single__event">Facing Startup Battles</h3>
+        </div>
+        <p class="about-us-single__description">Proin iaculis purus consequat sem cure digni ssim.
+            Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis
+            purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>
+    </div>
+</div>
+<div class="about-us-single left">
+    <div class="about-us-single__image" style="background-image: url('images/about-us-3.jpg')"></div>
+    <div class="about-us-single__content">
+        <div class="about-us-single__title">
+            <h3 class="about-us-single__date">December 2012</h3>
+            <h3 class="about-us-single__event">Enter the Dark Days</h3>
+        </div>
+        <p class="about-us-single__description">Proin iaculis purus consequat sem cure digni ssim.
+            Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis
+            purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>
+    </div>
+</div>
+<div class="about-us-single right">
+    <div class="about-us-single__image" style="background-image: url('images/about-us-4.jpg')"></div>
+    <div class="about-us-single__content">
+        <div class="about-us-single__title">
+            <h3 class="about-us-single__date">February 2014</h3>
+            <h3 class="about-us-single__event">Our Triumph</h3>
+        </div>
+        <p class="about-us-single__description">Proin iaculis purus consequat sem cure digni ssim.
+            Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis
+            purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>
+    </div>
+</div>
+*/
