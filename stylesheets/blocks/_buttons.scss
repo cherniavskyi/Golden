@@ -11,9 +11,23 @@
   &:hover {
     background-color: darken($yellow, 20%);
   }
+
+  &.button--fixed {
+    position: fixed;
+    right: 50px;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 50%;
+  }
 }
 
 
 /*
 <input type="button" class="button" value="Tell me more">
+<a href="#home" class="button button--fixed"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
 */
